@@ -12,7 +12,7 @@ public class Main {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.postgresql.Driver");
         dataSource.setUsername("postgres");
-        dataSource.setPassword("662607");
+        dataSource.setPassword("******");
         dataSource.setUrl("jdbc:postgresql://localhost:5433/Users");
 
         UsersDao usersDao = new UsersDaoJdbcTemplateImplements(dataSource);

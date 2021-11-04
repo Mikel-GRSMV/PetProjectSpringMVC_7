@@ -9,8 +9,8 @@
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="org.postgresql.Driver"/>
         <property name="username" value="postgres"/>
-        <property name="password" value="662607"/>
-        <property name="url" value="jdbc:postgresql://localhost:5433/Users"/>
+        <property name="password" value="******"/>
+        <property name="url" value="jdbc:postgresql://localhost:******/******"/>
     </bean>
 
     <bean id="/users" class="ru.folder.controllers.UsersController"/>
